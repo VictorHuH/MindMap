@@ -1,0 +1,32 @@
+{
+  /* editor配置 */
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Monokai",
+  /* eslint配置(注意要Npm下载包后才会起作用) */
+  // 代码错误实时提示, 并且支持自动格式化
+  "eslint.validate": [
+    "vue",
+    "html",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  // 保存时是否自动根据eslint进行格式化
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // 不知道有什么用？？？
+  "eslint.options": {
+    "extensions": [".js", ".vue", ".ts", ".tsx"]
+  },
+  // 其他设置
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.iconTheme": "vscode-icons",
+  "security.workspace.trust.untrustedFiles": "open",
+  "diffEditor.ignoreTrimWhitespace": false
+}
